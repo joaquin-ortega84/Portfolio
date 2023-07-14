@@ -1,0 +1,33 @@
+<p>I'm truly passionate about creating data-driven applications and leveraging machine learning to make a real impact. Currently, I'm focused on developing a professional portfolio that showcases my expertise in visualization tools, personal mobile finance applications, and machine learning/deep learning-powered apps.</p>
+<p>With a BSc in Economics and an MSc in International Management, I'm constantly on a learning journey, eager to expand my knowledge and skills. Along the way, I've gained valuable business acumen through industry experience and honed my front-end development skills through self-study. To further enhance my data skills, I also participated in Le Wagon's Data Science bootcamp, which equipped me for my data profession.</p>
+<p>I'm always open to exciting work opportunities, so please don't hesitate to reach out if you think we could collaborate!</p>
+
+
+<!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
+<img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> --> --> -->
+
+
+<!-- <div class="services-container">
+  <h2 class="text-center">Services</h2>
+  <hr class="hr-1">
+  <div class="professions row text-center mt-5">
+    <div class="col data-analyst">
+      <span class="material-symbols-outlined">monitoring</span>
+      <p>Data Analyst</p>
+    </div>
+    <div class="col data-scientist">
+      <span class="material-symbols-outlined">data_exploration</span>
+      <p>Data Scientist</p>
+    </div>
+  </div>
+</div>

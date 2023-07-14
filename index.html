@@ -15,17 +15,16 @@
 </head>
 <body>
 
+  <!-- Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-with-background">
     <div class="container-fluid">
       <div class="navbar-brand">
         <h2>Joaquín Ortega</h2>
-        <p>Data Science Developer</p>
+        <p>Data Scientist developer</p>
       </div>
-
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -45,18 +44,18 @@
     </div>
   </nav>
 
+  <!-- Portfolio Section -->
   <div class="div portfolio-section">
-    <h2 class="text-center mt-5">Portfolio</h2>
+    <h2 class="text-center mt-5">PORTFOLIO</h2>
     <hr class="hr-1">
   </div>
-
   <div class="container">
     <div class="row">
       <div class="col text-center mt-5 mb-5">
         <div class="button-style">
-          <button type="button" class="btn btn-light filter-button" data-filter="all">All</button>
-          <button type="button" class="btn btn-light filter-button" data-filter="data-science">Data Science</button>
-          <button type="button" class="btn btn-light filter-button" data-filter="web-dev">Web Dev</button>
+          <button type="button" class="btn btn-light filter-button border-0" data-filter="all">All</button>
+          <button type="button" class="btn btn-light filter-button border-0" data-filter="data-science">Data Science</button>
+          <button type="button" class="btn btn-light filter-button border-0" data-filter="web-dev">Web Dev</button>
         </div>
       </div>
     </div>
@@ -73,78 +72,53 @@
     </div>
   </div>
 
-
+  <!-- About Section -->
   <div class="about-me">
-    <h2 class="text-center mt-5">About</h2>
+    <h2 class="text-center">ABOUT ME</h2>
     <hr class="hr-1">
-
-
     <!-- Add a custom illustration and about photo -->
     <div class="container">
       <div class="row">
-        <div class="row about-section mt-5 mb-5 justify-content-center align-items-center text-center">
-          <div class="col-md-6 about-text">
-            <!-- Add some emojis here -->
-            <p>I'm truly passionate about creating data-driven applications and leveraging machine learning to make a real impact. Currently, I'm focused on developing a professional portfolio that showcases my expertise in visualization tools, personal mobile finance applications, and machine learning/deep learning-powered apps.</p>
-            <p>With a BSc in Economics and an MSc in International Management, I'm constantly on a learning journey, eager to expand my knowledge and skills. Along the way, I've gained valuable business acumen through industry experience and honed my front-end development skills through self-study. To further enhance my data skills, I also participated in Le Wagon's Data Science bootcamp, which equipped me for my data profession.</p>
-            <p>I'm always open to exciting work opportunities, so please don't hesitate to reach out if you think we could collaborate!</p>
-            </p>
+        <div class="row mt-5 justify-content-center">
+          <img class="about-me-img col-md-4"src="images/github photo compressed copy.jpeg" alt=""/>
+          <div class="col-md-5 text-center"><h4>Hi, I'm Joaquín</h4>
+            <br>I'm passionate about creating impactful data-driven applications. My focus is on developing a portfolio showcasing expertise in BI visualization tools, personal finance apps, machine learning and deep learning.
+            <br><br>I have a BSc in Economics, an MSc in International Management and love to continuously expand my skills. I have 3 years of industry experience working with Software and Data. I am self-taught in web development and have advanced my data analytics & data science skills recently, participating in Le Wagon's Data Science bootcamp.
+            <br><br>I'm always open to exciting work opportunities, so please don't hesitate to reach out if you think we could collaborate!
           </div>
-          <!-- <div class="col-md-6 text-center">
-            <img class="about-img col-md-6" src="images/about img.jpg" alt="About Me Image">
-          </div> -->
         </div>
       </div>
     </div>
+  </div>
 
 
-    <div class="services container">
-      <h2 class="text-center">Services</h2>
-      <hr class="hr-1">
-      <div class="professions row text-center mt-5">
-        <div class="col data-analyst">
-          <span class="material-symbols-outlined">monitoring</span>
-          <p>Data Analyst</p>
-        </div>
-        <div class="col data-scientist">
-          <span class="material-symbols-outlined">data_exploration</span>
-          <p>Data Scientist</p>
-        </div>
-      </div>
+  <div class="footer-content">
+    <p><b>FOLLOW ME</b></p>
+    <div class="footer-icons">
+      <a href="https://linkedin.com/in/joaquín-ortega7"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+      <a href="https://github.com/joaquin-ortega84"><i class="fab fa-github" style="color: #ffffff;"></i></a>
     </div>
-
-
-    <footer>
-      <div class="footer-content">
-        <p><b>FOLLOW ME</b></p>
-        <div class="footer-icons">
-          <a href="https://linkedin.com/in/joaquín-ortega7"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
-          <a href="https://github.com/joaquin-ortega84"><i class="fab fa-github" style="color: #ffffff;"></i></a>
-        </div>
-      </div>
-    </footer>
-    <!-- Add all rights reserved -->
-
-  <script>
-    $(document).ready(function() {
-      $('.filter-button').click(function() {
-        var value = $(this).attr('data-filter');
-
-        if (value == 'all') {
-          $('.filter').show('1000');
-        }
-        else {
-          $('.filter').hide('3000');
-          $('.filter.' + value).show('3000');
-        }
-
-        $('.filter-button').removeClass('active');
-        $(this).addClass('active');
-      });
-    });
-
-
-  </script>
+  </div>
+  <div class="all-rights text-center p-2">All rights reserved - 2023</div>
 
 </body>
+<script>
+  $(document).ready(function() {
+    $('.filter-button').click(function() {
+      var value = $(this).attr('data-filter');
+
+      if (value == 'all') {
+        $('.filter').show('1000');
+      }
+      else {
+        $('.filter').hide('3000');
+        $('.filter.' + value).show('3000');
+      }
+
+      $('.filter-button').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+
+</script>
 </html>
